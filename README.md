@@ -19,7 +19,7 @@ The main business question is:
 The project aims to:
 
 - [Objective 1]Produce a reliable metric/threshold, risk score, to estimate the risk of each transaction.
-- [Objective 2]
+- [Objective 2]Create a reusable engineering pipeline that can be used to estimate risk of most of bitcoin transaction data
 - [Objective 3]
 - [Objective 4]
 
@@ -240,6 +240,6 @@ Do not upload the completed `.env` file or any credentials to GitHub.
 
 | Team Member | Responsibilities | Contact |
 |---|---|---|
-| [Name 1] | [Responsibilities] | [Contact information] |
-| [Name 2] | [Responsibilities] | [Contact information] |
-| [Name 3] | [Responsibilities] | [Contact information] |
+| Qianran Ren | [Responsibilities] | [Contact information] |
+| Xitong Xiang | [Responsibilities] | [Contact information] |
+| Yuhe Wu | [Responsibilities] | [Contact information] |
