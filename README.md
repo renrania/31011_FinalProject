@@ -43,7 +43,7 @@ The project uses the following files:
 |---|---|---|
 | `txs_features.csv` | Transaction ID, time step, 183 features | `data/raw/txs_features.csv` |
 | `txs_classes.csv` | Illicit, licit, unknown labels per transaction | `data/raw/txs_classes.csv` |
-| `txs_edgelist.csv` | [Describe the contents of this file.] | `data/raw/txs_edgelist.csv` |
+| `txs_edgelist.csv` | Source Transaction, Target Transaction | `data/raw/txs_edgelist.csv` |
 
 The original data files are not stored in this repository because [explain the reason, such as file size or data-use requirements]. Users must download the files from the original source and place them in the locations listed above.
 
