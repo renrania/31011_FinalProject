@@ -1,0 +1,52 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Cloud credentials and private keys
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw and processed data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Model files
+*.pkl
+*.joblib
+
+# Test and tool cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Log files
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
