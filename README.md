@@ -41,7 +41,7 @@ The project uses the following files:
 
 | File | Description | Expected Location |
 |---|---|---|
-| `txs_features.csv` | Transaction ID, time step, 183 features | `data/raw/txs_features.csv` |
+| `txs_features.csv` | Transaction ID, time step, 93 Local Features + 72 Aggregate Features + 17 Augmented Features | `data/raw/txs_features.csv` |
 | `txs_classes.csv` | Illicit, licit, unknown labels per transaction | `data/raw/txs_classes.csv` |
 | `txs_edgelist.csv` | Source Transaction, Target Transaction | `data/raw/txs_edgelist.csv` |
 
