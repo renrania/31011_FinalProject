@@ -47,6 +47,28 @@ The project uses the following files:
 
 The original data files are not stored in this repository because [explain the reason, such as file size or data-use requirements]. Users must download the files from the original source and place them in the locations listed above.
 
+## Obtaining the Data
+
+The raw Elliptic++ CSV files are not stored in this GitHub repository.
+The `txs_features.csv` file is approximately 663 MB, which exceeds GitHub's
+100 MiB limit for a regular Git file. The `data/raw/` directory is excluded
+from version control in `.gitignore`.
+
+### Download for local use
+
+1. Download the three required CSV files from the
+   [Elliptic++ source repository](https://github.com/git-disl/EllipticPlusPlus).
+2. Place them in the following local directory:
+
+   ```text
+   data/raw/
+   ├── txs_features.csv
+   ├── txs_classes.csv
+   └── txs_edgelist.csv
+
+
+
+
 ## Planned Architecture
 
 The planned data flow is:
