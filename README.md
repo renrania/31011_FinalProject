@@ -41,7 +41,7 @@ The project uses the following files:
 
 | File | Description | Expected Location |
 |---|---|---|
-| `txs_features.csv` | Transaction ID, time step, 93 Local Features + 72 Aggregate Features + 17 Augmented Features | `data/raw/txs_features.csv` |
+| `txs_features.csv` | Transaction ID, time step, 93 Local Features(self transaction features) + 72 Aggregate Features(neighbor transaction features) + 17 Augmented Features | `data/raw/txs_features.csv` |
 | `txs_classes.csv` | Illicit, licit, unknown labels per transaction | `data/raw/txs_classes.csv` |
 | `txs_edgelist.csv` | Source Transaction, Target Transaction | `data/raw/txs_edgelist.csv` |
 
@@ -213,13 +213,23 @@ Do not upload the completed `.env` file or any credentials to GitHub.
 2. Place the three required CSV files in `data/raw/`.
 3. Confirm that the filenames match those listed in the Data Sources section.
 
+
 ### 6. Run the ingestion pipeline
 
+The automated ingestion pipeline validates and profiles
+the raw Elliptic++ datasets before uploading them to
+Google Cloud Storage.
+
+Run the following command from the project root:
+
 ```bash
-[Insert the command used to run the ingestion pipeline.]
+python Scripts/ingest.py
 ```
 
-> The complete setup and execution instructions will be updated as the pipeline is implemented.
+For detailed prerequisites, data preparation, Google Cloud
+authentication, IAM permissions, execution instructions,
+expected outputs, and troubleshooting, refer to the
+[Automated Data Ingestion Guide](docs/ingest.md).
 
 ## Roadmap
 
